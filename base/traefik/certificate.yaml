@@ -6,7 +6,7 @@ metadata:
   namespace: traefik
 spec:
   dnsNames:
-    - 'jellyfin.cluster.domain'
+    - 'gitops4tb.i69n718.shoot.emk.fuga.cloud'
   secretName: jellyfin-tls
   issuerRef:
     name: letsencrypt-prod
@@ -19,7 +19,7 @@ metadata:
   namespace: traefik
 spec:
   dnsNames:
-    - 'whoami.cluster.domain'
+    - 'gitops4tb.i69n718.shoot.emk.fuga.cloud'
   secretName: whoami-tls
   issuerRef:
     name: letsencrypt-prod
